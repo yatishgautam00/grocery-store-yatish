@@ -5,7 +5,7 @@ import ProductList from "./_component/ProductList";
 
 export default function Home() {
   return (
-    <div className=" p-5 md:p-10 px-16">
+    <div className=" p-5 md:p-10 md:px-16 px-4">
       <Slider />
       <h2 className="text-[12px] pt-1 text-center align-center text-green-900 px-5">
         {" "}
