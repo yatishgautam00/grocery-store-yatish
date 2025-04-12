@@ -21,6 +21,7 @@ function Slider() {
       plugins={[plugin.current]}
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
+      className={'overflow-x-hidden'}
     >
       <CarouselContent>
         {imgUrl.map((url, index) => (
